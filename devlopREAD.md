@@ -15,10 +15,6 @@
 ## `logs/`
 - `execution_logs.txt`  - 记录工具执行过程中的每次结果
 
-## `libs/`
-- `__init__.py`  - 库初始化文件
-- `adb_utils.py`  - 用于获取连接设备、获取配对蓝牙设备等的ADB工具类
-
 ## `config/`
 - `settings.py`  - 配置文件，包含蓝牙设备、音频设置等配置
 
