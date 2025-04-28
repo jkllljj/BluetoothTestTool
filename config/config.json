@@ -1,0 +1,20 @@
+{
+    "device": {
+        "serial": "R5CW505P3RK",
+        "input": {
+            "x": 400,
+            "y": 900
+        }
+    },
+    "log": {
+        "file_path": "../logs/"
+    },
+    "tasks": {
+        "task1": [
+            {"volume_up": 10},
+            {"volume_down": 8},
+            {"play_pause": 10},
+            {"relink": 20}
+        ]
+    }
+}

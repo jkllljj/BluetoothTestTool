@@ -20,3 +20,9 @@
 
 ## `report/`
 - `test_report.txt`  - 生成的测试报告
+
+后续的改进：
+* 把devices序列号和对应设备的input tap坐标保存在config中
+* 后续的压测内容也可以通过调整config来进行完成
+* 完善log生成和异常处理
+* 
