@@ -1,0 +1,216 @@
+2025-04-29 09:29:30,810 - INFO - 任务执行开始
+设备序列号: R5CW505P3RK, 点击坐标: (400, 900)
+
+2025-04-29 09:29:30,810 - INFO - 开始检测蓝牙设备连接状态...
+2025-04-29 09:29:31,007 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.20秒
+2025-04-29 09:29:32,010 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:32,010 - INFO - 蓝牙设备已连接，直接开始执行任务
+2025-04-29 09:29:32,011 - INFO - 
+开始执行任务: task1
+2025-04-29 09:29:32,011 - INFO - 执行进度: 1/5
+2025-04-29 09:29:32,203 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.19秒
+2025-04-29 09:29:33,205 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:33,455 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.25秒
+2025-04-29 09:29:36,457 - INFO - 执行进度: 2/5
+2025-04-29 09:29:36,625 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.17秒
+2025-04-29 09:29:37,626 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:37,870 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.24秒
+2025-04-29 09:29:40,871 - INFO - 执行进度: 3/5
+2025-04-29 09:29:41,044 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.17秒
+2025-04-29 09:29:42,046 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:42,318 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.27秒
+2025-04-29 09:29:45,319 - INFO - 执行进度: 4/5
+2025-04-29 09:29:45,545 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.23秒
+2025-04-29 09:29:46,546 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:46,784 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.24秒
+2025-04-29 09:29:49,785 - INFO - 执行进度: 5/5
+2025-04-29 09:29:49,999 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:29:51,000 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:51,274 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.27秒
+2025-04-29 09:29:54,276 - INFO - 执行进度: 1/3
+2025-04-29 09:29:54,495 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:29:55,496 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:29:55,771 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_DOWN，耗时: 0.27秒
+2025-04-29 09:29:58,773 - INFO - 执行进度: 2/3
+2025-04-29 09:29:58,990 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:29:59,992 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:00,246 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_DOWN，耗时: 0.25秒
+2025-04-29 09:30:03,247 - INFO - 执行进度: 3/3
+2025-04-29 09:30:03,465 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:30:04,466 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:04,715 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_DOWN，耗时: 0.25秒
+2025-04-29 09:30:07,719 - INFO - 执行进度: 1/3
+2025-04-29 09:30:07,987 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.27秒
+2025-04-29 09:30:08,989 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:09,097 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE，耗时: 0.11秒
+2025-04-29 09:30:12,098 - INFO - 执行进度: 2/3
+2025-04-29 09:30:12,309 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:30:13,311 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:13,412 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE，耗时: 0.10秒
+2025-04-29 09:30:16,415 - INFO - 执行进度: 3/3
+2025-04-29 09:30:16,593 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.18秒
+2025-04-29 09:30:17,594 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:17,707 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE，耗时: 0.11秒
+2025-04-29 09:30:20,708 - INFO - 执行进度: 1/3
+2025-04-29 09:30:20,913 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:30:21,914 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:21,914 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:30:22,087 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.17秒
+2025-04-29 09:30:23,088 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:23,088 - INFO - 音箱已连接，开始断开
+2025-04-29 09:30:23,230 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.14秒
+2025-04-29 09:30:29,352 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.12秒
+2025-04-29 09:30:35,563 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:30:36,564 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:30:36,565 - INFO - 音箱断开成功
+2025-04-29 09:30:38,565 - INFO - 执行进度: 2/3
+2025-04-29 09:30:38,780 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:30:39,782 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:30:39,783 - INFO - 检测到蓝牙未连接，开始尝试连接音箱...
+2025-04-29 09:30:39,783 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:30:39,939 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.16秒
+2025-04-29 09:30:40,940 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:30:40,940 - INFO - 音箱未连接，开始连接
+2025-04-29 09:30:41,050 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.11秒
+2025-04-29 09:30:47,165 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.11秒
+2025-04-29 09:30:53,323 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.16秒
+2025-04-29 09:30:54,324 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:54,324 - INFO - 音箱连接成功
+2025-04-29 09:30:54,324 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:30:54,469 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.15秒
+2025-04-29 09:30:55,470 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:30:55,470 - INFO - 音箱已连接，开始断开
+2025-04-29 09:30:55,571 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.10秒
+2025-04-29 09:31:01,649 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.08秒
+2025-04-29 09:31:07,829 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.18秒
+2025-04-29 09:31:08,830 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:31:08,831 - INFO - 音箱断开成功
+2025-04-29 09:31:10,832 - INFO - 执行进度: 3/3
+2025-04-29 09:31:11,009 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.18秒
+2025-04-29 09:31:12,010 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:31:12,010 - INFO - 检测到蓝牙未连接，开始尝试连接音箱...
+2025-04-29 09:31:12,010 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:31:12,149 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.14秒
+2025-04-29 09:31:13,150 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:31:13,150 - INFO - 音箱未连接，开始连接
+2025-04-29 09:31:13,254 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.10秒
+2025-04-29 09:31:19,394 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.14秒
+2025-04-29 09:31:25,625 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.23秒
+2025-04-29 09:31:26,627 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:31:26,627 - INFO - 音箱连接成功
+2025-04-29 09:31:26,627 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:31:26,772 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.14秒
+2025-04-29 09:31:27,773 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:31:27,773 - INFO - 音箱已连接，开始断开
+2025-04-29 09:31:27,844 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.07秒
+2025-04-29 09:31:33,972 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.13秒
+2025-04-29 09:31:40,178 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.20秒
+2025-04-29 09:31:41,179 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:31:41,180 - INFO - 音箱断开成功
+2025-04-29 09:31:43,180 - INFO - 
+开始执行任务: task2
+2025-04-29 09:31:43,180 - INFO - 执行进度: 1/3
+2025-04-29 09:31:43,386 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:31:44,388 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:31:44,389 - INFO - 检测到蓝牙未连接，开始尝试连接音箱...
+2025-04-29 09:31:44,389 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:31:44,606 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:31:45,608 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:31:45,609 - INFO - 音箱未连接，开始连接
+2025-04-29 09:31:45,723 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.11秒
+2025-04-29 09:31:51,858 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.13秒
+2025-04-29 09:31:58,062 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.20秒
+2025-04-29 09:31:59,064 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:31:59,064 - INFO - 音箱连接成功
+2025-04-29 09:31:59,324 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.26秒
+2025-04-29 09:32:02,325 - INFO - 执行进度: 2/3
+2025-04-29 09:32:02,511 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.19秒
+2025-04-29 09:32:03,512 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:03,762 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.25秒
+2025-04-29 09:32:06,763 - INFO - 执行进度: 3/3
+2025-04-29 09:32:07,018 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.25秒
+2025-04-29 09:32:08,019 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:08,278 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_UP，耗时: 0.26秒
+2025-04-29 09:32:11,279 - INFO - 执行进度: 1/3
+2025-04-29 09:32:11,449 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.17秒
+2025-04-29 09:32:12,452 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:12,704 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_DOWN，耗时: 0.25秒
+2025-04-29 09:32:15,705 - INFO - 执行进度: 2/3
+2025-04-29 09:32:15,877 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.17秒
+2025-04-29 09:32:16,878 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:17,130 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_DOWN，耗时: 0.25秒
+2025-04-29 09:32:20,131 - INFO - 执行进度: 3/3
+2025-04-29 09:32:20,335 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.20秒
+2025-04-29 09:32:21,336 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:21,587 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_VOLUME_DOWN，耗时: 0.25秒
+2025-04-29 09:32:24,589 - INFO - 执行进度: 1/3
+2025-04-29 09:32:24,803 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:32:25,804 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:25,909 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE，耗时: 0.10秒
+2025-04-29 09:32:28,911 - INFO - 执行进度: 2/3
+2025-04-29 09:32:29,095 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.18秒
+2025-04-29 09:32:30,096 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:30,199 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE，耗时: 0.10秒
+2025-04-29 09:32:33,201 - INFO - 执行进度: 3/3
+2025-04-29 09:32:33,395 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.19秒
+2025-04-29 09:32:34,396 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:34,506 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE，耗时: 0.11秒
+2025-04-29 09:32:37,507 - INFO - 执行进度: 1/3
+2025-04-29 09:32:37,728 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:32:38,729 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:38,729 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:32:38,943 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:32:39,945 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:32:39,945 - INFO - 音箱已连接，开始断开
+2025-04-29 09:32:40,073 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.13秒
+2025-04-29 09:32:46,211 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.14秒
+2025-04-29 09:32:52,458 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.24秒
+2025-04-29 09:32:53,459 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:32:53,459 - INFO - 音箱断开成功
+2025-04-29 09:32:55,460 - INFO - 执行进度: 2/3
+2025-04-29 09:32:55,618 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.16秒
+2025-04-29 09:32:56,620 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:32:56,621 - INFO - 检测到蓝牙未连接，开始尝试连接音箱...
+2025-04-29 09:32:56,621 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:32:56,798 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.18秒
+2025-04-29 09:32:57,799 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:32:57,799 - INFO - 音箱未连接，开始连接
+2025-04-29 09:32:57,896 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.10秒
+2025-04-29 09:33:04,031 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.13秒
+2025-04-29 09:33:10,263 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.23秒
+2025-04-29 09:33:11,266 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:33:11,266 - INFO - 音箱连接成功
+2025-04-29 09:33:11,267 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:33:11,462 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.20秒
+2025-04-29 09:33:12,463 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:33:12,464 - INFO - 音箱已连接，开始断开
+2025-04-29 09:33:12,567 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.10秒
+2025-04-29 09:33:18,666 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.10秒
+2025-04-29 09:33:24,895 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.23秒
+2025-04-29 09:33:25,896 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:33:25,896 - INFO - 音箱断开成功
+2025-04-29 09:33:27,897 - INFO - 执行进度: 3/3
+2025-04-29 09:33:28,109 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:33:29,111 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:33:29,111 - INFO - 检测到蓝牙未连接，开始尝试连接音箱...
+2025-04-29 09:33:29,112 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:33:29,327 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.22秒
+2025-04-29 09:33:30,328 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:33:30,329 - INFO - 音箱未连接，开始连接
+2025-04-29 09:33:30,433 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.10秒
+2025-04-29 09:33:36,550 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.12秒
+2025-04-29 09:33:42,744 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.19秒
+2025-04-29 09:33:43,745 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:33:43,746 - INFO - 音箱连接成功
+2025-04-29 09:33:43,746 - INFO - 开始重新连接/断开音箱
+2025-04-29 09:33:43,904 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.16秒
+2025-04-29 09:33:44,906 - INFO - 当前蓝牙连接状态: STATE_CONNECTED
+2025-04-29 09:33:44,907 - INFO - 音箱已连接，开始断开
+2025-04-29 09:33:45,016 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS，耗时: 0.11秒
+2025-04-29 09:33:51,077 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900，耗时: 0.06秒
+2025-04-29 09:33:57,293 - INFO - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager，耗时: 0.21秒
+2025-04-29 09:33:58,294 - INFO - 当前蓝牙连接状态: STATE_DISCONNECTED
+2025-04-29 09:33:58,294 - INFO - 音箱断开成功
+2025-04-29 09:34:00,295 - INFO - 
+任务执行结束
+成功操作: 26 次，失败操作: 0 次

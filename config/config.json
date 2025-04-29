@@ -11,10 +11,16 @@
     },
     "tasks": {
         "task1": [
-            {"volume_up": 10},
-            {"volume_down": 8},
-            {"play_pause": 10},
-            {"relink": 20}
+            {"volume_up": 5},
+            {"volume_down": 3},
+            {"play_pause": 3},
+            {"relink": 3}
+        ],
+        "task2": [
+            {"volume_up": 3},
+            {"volume_down": 3},
+            {"play_pause": 3},
+            {"relink": 3}
         ]
     }
 }
