@@ -1,0 +1,14 @@
+2025-05-08 16:17:51,818 - INFO - 执行ADB命令: adb devices，耗时: 0.03秒
+2025-05-08 16:18:01,391 - ERROR - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager 出错，错误信息: adb.exe: device 'R5CW505P3RK' not found，耗时: 0.03秒
+2025-05-08 16:18:02,393 - INFO - 获取蓝牙设备信息失败
+2025-05-08 16:18:02,393 - INFO - 开始重新连接/断开音箱
+2025-05-08 16:18:02,423 - ERROR - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager 出错，错误信息: adb.exe: device 'R5CW505P3RK' not found，耗时: 0.03秒
+2025-05-08 16:18:03,436 - INFO - 获取蓝牙设备信息失败
+2025-05-08 16:18:03,441 - INFO - 音箱未连接，开始连接
+2025-05-08 16:18:03,477 - ERROR - 执行ADB命令: adb -s R5CW505P3RK shell am start -a android.settings.BLUETOOTH_SETTINGS 出错，错误信息: adb.exe: device 'R5CW505P3RK' not found，耗时: 0.04秒
+2025-05-08 16:18:09,537 - ERROR - 执行ADB命令: adb -s R5CW505P3RK shell input tap 400 900 出错，错误信息: adb.exe: device 'R5CW505P3RK' not found，耗时: 0.03秒
+2025-05-08 16:18:15,589 - ERROR - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager 出错，错误信息: adb.exe: device 'R5CW505P3RK' not found，耗时: 0.03秒
+2025-05-08 16:18:16,600 - INFO - 获取蓝牙设备信息失败
+2025-05-08 16:18:16,600 - INFO - 音箱连接失败
+2025-05-08 16:18:16,630 - ERROR - 执行ADB命令: adb -s R5CW505P3RK shell dumpsys bluetooth_manager 出错，错误信息: adb.exe: device 'R5CW505P3RK' not found，耗时: 0.03秒
+2025-05-08 16:18:17,643 - INFO - 获取蓝牙设备信息失败

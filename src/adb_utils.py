@@ -1,6 +1,8 @@
 import subprocess
 import time
 import re
+from time import sleep
+
 from src.logging_utils import LogUtils
 
 class ADB_Utils:
@@ -9,7 +11,7 @@ class ADB_Utils:
         self.click_coordinates = click_coordinates
         self.logger = LogUtils()
 
-    def execute_adb_command(self, command, wait_time=1):
+    def execute_adb_command(self, command, wait_time=1.8):
         """统一封装 ADB 命令执行"""
         start_time = time.time()
         try:
@@ -69,6 +71,20 @@ class ADB_Utils:
         self.execute_adb_command(command)
         time.sleep(2)
 
+    def mi_relink(self):
+        """ 模拟小米手机的重连 """
+        command = f'adb -s {self.device_serial} shell input tap 400 900'
+        self.execute_adb_command(command)
+        time.sleep(1)
+        self.execute_adb_command(command=f'adb -s {self.device_serial} shell input tap 900 2100')
+        time.sleep(2)
+
+    def samsung_relink(self):
+        self.execute_adb_command(command=f'adb -s {self.device_serial} shell input tap 400 900')
+        time.sleep(1.8)
+        self.execute_adb_command(command=f'adb -s {self.device_serial} shell input tap 400 900')
+        time.sleep(1.8)
+
     def is_bluetooth_connected(self):
         """判断当前是否有蓝牙设备连接"""
         command = f"adb -s {self.device_serial} shell dumpsys bluetooth_manager"
@@ -114,3 +130,13 @@ class ADB_Utils:
                 self.logger.log_info("音箱断开成功")
             else:
                 self.logger.log_info("音箱断开失败")
+
+    def volume_loop(self):
+        """" 进行音量调整的循环,,调到最大,然后调整到最小,然后复位   """
+        pass
+
+    def monkey(self):
+        """ MonkeyTesth"""
+        pass
+
+

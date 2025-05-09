@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 '''
-	ui转换成py的转换工具  
+	ui转换成py的转换工具 ,同目录下的.ui生成python代码
 '''
 
 import os 
 import os.path 
 
-# UI文件所在的路径 
+# UI文件所在的路径
+
 dir = './'  
 
 # 列出目录下的所有ui文件

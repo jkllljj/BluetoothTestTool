@@ -10,17 +10,19 @@
         "file_path": "../logs/"
     },
     "tasks": {
-        "task1": [
-            {"volume_up": 5},
-            {"volume_down": 3},
-            {"play_pause": 3},
-            {"relink": 3}
-        ],
-        "task2": [
-            {"volume_up": 3},
-            {"volume_down": 3},
-            {"play_pause": 3},
-            {"relink": 3}
+        "custom_task": [
+            {
+                "volume_up": 5
+            },
+            {
+                "volume_up": 150
+            },
+            {
+                "play_pause": 100
+            },
+            {
+                "volume_up": 100
+            }
         ]
     }
 }
